@@ -1,6 +1,8 @@
+import Link from "next/link";
+
 export default function Page() {
   return (
-    <main className="flex min-h-screen items-center justify-center px-6">
+    <main className="flex min-h-screen bg-black items-center justify-center px-6">
       <div className="mx-auto max-w-2xl text-center">
         <div className="mb-6 flex justify-center">
           <span className="text-muted-foreground rounded-full border border-neutral-500/30 px-4 py-1 text-sm">
@@ -18,18 +20,18 @@ export default function Page() {
         </p>
 
         <div className="mt-8 flex items-center justify-center gap-4">
-          <a
+          <Link
             href="https://servercn.vercel.app"
             target="_blank"
             className="rounded-md bg-black px-4 py-2.5 text-sm font-medium text-white hover:opacity-90 dark:bg-white dark:text-black">
             Get Started
-          </a>
+          </Link>
 
           <a
-            href="https://servercn.vercel.app/docs"
+            href="https://github.com/akkaldhami/servercn"
             target="_blank"
-            className="hover:bg-muted rounded-md border border-neutral-500 px-4 py-2.5 text-sm font-medium">
-            Documentation
+            className="hover:bg-blue-600 bg-blue-500 rounded-md px-4 py-2.5 text-sm font-medium">
+            Star on GitHub
           </a>
         </div>
       </div>

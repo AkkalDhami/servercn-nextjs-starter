@@ -21,7 +21,7 @@ export default {
       ]
     ],
 
-    "body-max-length": [0, "always", 500],
-    "header-max-length": [0, "always", 200]
+    "body-max-length": [0, "always", 200],
+    "header-max-length": [0, "always", 80]
   }
 };
