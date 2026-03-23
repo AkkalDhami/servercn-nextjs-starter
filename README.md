@@ -17,9 +17,9 @@ npm run dev
 
 Servercn turns Next.js into a **structured, backend-ready architecture**:
 
-* API-first approach
-* Scalable project structure
-* Built for real-world applications
+- API-first approach
+- Scalable project structure
+- Built for real-world applications
 
 ---
 
@@ -27,9 +27,9 @@ Servercn turns Next.js into a **structured, backend-ready architecture**:
 
 Upgrade anytime:
 
-* MongoDB (Mongoose / Prisma)
-* PostgreSQL (Drizzle / Prisma)
-* MySQL (Drizzle / Prisma)
+- MongoDB (Mongoose / Prisma)
+- PostgreSQL (Drizzle / Prisma)
+- MySQL (Drizzle / Prisma)
 
 ---
 
@@ -52,11 +52,13 @@ Build faster. Structure better.
 MIT
 
 Installing dependencies:
+
 - next
 - react
 - react-dom
 
 Installing devDependencies:
+
 - @tailwindcss/postcss
 - @types/node
 - @types/react
